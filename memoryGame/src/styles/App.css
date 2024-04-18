@@ -1,0 +1,102 @@
+body {
+  background-color: red;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  color: black;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.game {
+  padding: 5px;
+  background-color: gold;
+  border-style: inset;
+  border-color: yellow;
+}
+
+.scoreboard {
+  color: white;
+  margin-left: auto;
+  margin-right: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-style: inset;
+  border-color: lightgray;
+}
+
+.current {
+  margin-right: 5px;
+}
+
+.pokemon-grid {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: inset;
+  border-color: rgb(194, 3, 3);
+}
+
+.pokemon-card {
+  margin: 10px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: inset;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+.pokemon-card:hover {
+  border-color: red;
+  transform: scale(1.1);
+}
+
+.pokeImg {
+  background-color: rgb(19, 37, 19);
+  border-style: inset;
+}
+
+.pokeName {
+  color: black;
+  font-weight: bold;
+}
+
+.footer {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doesNothing {
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(80, 80, 250);
+  border-style: outset;
+  border-width: 10px;
+  border-color: lightgray;
+}
+
+.directions {
+  background-color: rgb(233, 233, 233);
+  border-style: inset;
+  border-color: lightgray;
+  margin-left: 40px;
+  padding: 10px;
+  color: black;
+}
